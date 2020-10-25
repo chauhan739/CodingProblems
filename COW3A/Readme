@@ -1,4 +1,5 @@
 Fruit Basket  | COW3A
+Link:- https://www.codechef.com/problems/COW3A
 
 
 Teacher brought a fruit basket for three students. The basket contains only Apples, Mangoes and Oranges. Student A knows a value a, the total number of Apples and Mangoes in the Basket, B knows a value b, the total number of Mangoes and Oranges in the basket and Student C knows a value c, the total number of Oranges and Apples in the Basket. Since the teacher brought it he knows a value d , the total number of fruits in the basket. You have to determine the exact number of Apples , Mangoes and Oranges in the basket separately.
