@@ -1,0 +1,41 @@
+ORANGE FACTORY  | ORFA
+
+
+Link to problem:- https://www.codechef.com/SCC42020/problems/ORFA
+
+
+“Orange Factory” is an orange supply company which supplies oranges to retailers. They have M classes of oranges. Each class can have N number of oranges (N can be the same or can vary class to class. They accept order via mail for X oranges. In response, they confirm if they can supply the oranges with a “Thank you” note and the number of oranges or with a “Sorry” note and the numbers of oranges they can supply. They also mention the defective oranges by the class they will supply. The ordered oranges are adjusted against the different classes with the most number of oranges adjusted first then the balance is adjusted against the second-highest and so on. The company is a bit superstitious as well. If the number of oranges ordered is greater than or equal to the total number of oranges in stock then they retain one orange and responds back with the “Sorry” note with total number of oranges in stock minus one and defective oranges by class.
+
+Note: If the classes have the same number of oranges then class entered first should be selected to adjust.
+Input Format:
+First line contains two space-separated integers denoting the respective values of M (the number of classes of oranges) and X, the number of oranges ordered The following M lines contain an integer each indicating the number of oranges available in each class.
+Output Format:
+First line should be, if X is less than total number of oranges then Print ” Thank you, your order for X oranges is accepted” Else if X is greater than or equal to total number of oranges then print ” Sorry, we can only supply (total number of oranges in stock -1) oranges” Then M lines with 3 columns: First column – Number of oranges available in each class Second column – oranges allocated against each class for that order Third column – Balance oranges against each class.
+Constraints:
+1 ≤ M ≤ 20 N ≥ 1 X ≥ 1
+Sample Input 1:
+5 140
+50
+20
+80
+10
+5
+Sample Output 1:
+Thank you, your order for 140 oranges are accepted
+50  50  0
+20  20  0
+80  70  10
+10  0  10
+5    0    5
+Sample Input 2:
+4 260
+80
+50
+30
+70
+Sample Output 2:
+Sorry, we can only supply 229 oranges
+80 80 0
+50 50 0
+30 30 0
+70 69 1
