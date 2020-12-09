@@ -1,6 +1,6 @@
-This repository will contain
-some questions' solutions which are
-in CodeChef and many other platform
+This repository contain
+some programming questions' solutions
+which are on many platform
 in their respective directories.
 
 Whole question and its link to that
@@ -10,4 +10,4 @@ README file.
 I would suggest to change the library
 file from iostream to
 bits/stdc++.h
-Any suggestions will be most welcome
+
