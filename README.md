@@ -7,7 +7,6 @@ Whole question and its link to that
 question is present in their respective
 README file.
 
-I would suggest to change the library
-file from iostream to
-bits/stdc++.h
-
+<p align="center">
+  <img src="https://cdn.codechef.com/sites/all/themes/abessive/cc-logo.svg" alt="CodeChef">
+</p>
