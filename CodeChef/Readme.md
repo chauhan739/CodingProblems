@@ -1,4 +1,4 @@
 This repo will contain some questions'
 solution which I'd solved.
 
-<img src = "https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo.svg" alt = "Codechef" width = "100">
+<img align="center" src = "https://cdn.codechef.com/sites/all/themes/abessive/cc-logo.svg" alt = "Codechef" width = "100">
